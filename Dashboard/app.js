@@ -1,4 +1,4 @@
-var performancecard = document.getElementById('performance');
+const performanceCard = document.getElementById('performance');
 var rec1 = document.getElementById('rec1');
 var rec2 = document.getElementById('rec2');
 var rec3 = document.getElementById('rec3');
@@ -48,8 +48,8 @@ backbtn.addEventListener('click', ()=>{
     scrollcontainer.style.scrollBehaviour = "smooth";
 })
 
-performancecard.addEventListener("mouseover", onHover)
-performancecard.addEventListener("mouseout", onDover)
+performanceCard.addEventListener("mouseover", onHover)
+performanceCard.addEventListener("mouseout", onDover)
 month.addEventListener('click', onclickm)
 week.addEventListener('click', onclickw)
 cards1.addEventListener('mouseover', onH)
